@@ -8,6 +8,33 @@
     ]
   },
 
+
+  {
+    "nombre": "Fettuccine alla bolognese/Bolongese Fettuccine",
+    "precio": "18.00$",
+    "foto": "21.jpg",
+    "Ingredientes": ["Egg tagliatelle" , "Minced beef ", "Tomato puree ","Carrot" , " Celery","Onion","Red wine","Milk","Extra virgin olive oil" ,"Salt","Pepper"]
+  },
+
+  {
+    "nombre": "Fettuccine with shrimp and courgettes/Fettuccine gamberi e zucchine",
+    "precio": "9.00$",
+    "foto": "IMG-20241114-WA0221.jpg",
+    "Ingredientes": ["Fresh egg fettuccine" , "Shrimps" , "Zucchini" , "cream","dry white wine","Shallot","Onion","Extra virgin olive oil","Grated parmesan","Salt","Pepper"]
+  },
+  {
+    "nombre": "Penne ai 4 formaggi/Penne four cheeses",
+    "precio": "18.00$",
+    "foto": "IMG-20241114-WA0228.jpg",
+    "Ingredientes": ["Penne pasta","Gorgonzola gouda","Cream","Parmesan cheese"]
+  },
+  {
+    "nombre": "Penne with salmon / Penne al salmone",
+    "precio": "18.00$",
+    "foto": "IMG-20241116-WA0166.jpg",
+    "Ingredientes": ["Penne pasta","Oliva oil","Onion","Cream","Salmon","Salt","Parmesan cheese"]
+  },
+
   {
     "nombre": "Carbonara Rigatoni/Rigatoni alla Carbonara",
     "precio": "16.00$",
@@ -49,13 +76,51 @@
     "nombre": "White Pizza with Mortadella",
     "precio": "14.00$",
     "foto": "8.jpg",
-    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" ,"Mozzarella"]
+    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" ,"Mortadella"]
   },
+
+
+
+
+  {
+    "nombre": "White Pizza with Ham and Mozzarella",
+    "precio": "16.00$",
+    "foto": "9.jpg",
+    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" , "Ham","Mozzarella"]
+  },
+  {
+    "nombre": "White Pizza with cooked ham and Mozzarella",
+    "precio": "14.00$",
+    "foto": "10.jpg",
+    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" ,"Mozzarella","Cooked Ham"]
+  },
+  {
+    "nombre": "White Pizza with Tuna and Tomate",
+    "precio": "15.00$",
+    "foto": "11.jpg",
+    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" , "Tomate","Tuna"]
+  },
+  {
+    "nombre": "White Pizza with Tomate and Mozzarella",
+    "precio": "15.00$",
+    "foto": "12.jpg",
+    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" , "Tomate","Mozzarella"]
+  },
+
+
+
+
+
+
+
+
+
+
   {
     "nombre": "Regular Burger with chips",
     "precio": "6.00$",
     "foto": "IMG-20241114-WA0225.jpg",
-    "Ingredientes": ["Ground chuck and beef patties" , "Bread","Tomatoes and chips"]
+    "Ingredientes": ["Ground chuck and beef patties","Tomatoes and chips"]
   },
   {
     "nombre": "Mozzarella Cheese Burger with chips",
@@ -81,56 +146,9 @@
     "foto": "IMG-20241114-WA0220.jpg",
     "Ingredientes": ["Ground chuck and beef patties","Mozzarella cheese","Ham","Egg","Bacon and chips"]
   },
-  {
-    "nombre": "White Pizza with Ham and Mozzarella",
-    "precio": "16.00$",
-    "foto": "9.jpg",
-    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" , "Ham","Mozzarella"]
-  },
-  {
-    "nombre": "White Pizza with cooke ham and Mozzarella",
-    "precio": "14.00$",
-    "foto": "10.jpg",
-    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" ,"Mozzarella","Cooke Ham"]
-  },
-  {
-    "nombre": "White Pizza with Tuna and Tomate",
-    "precio": "15.00$",
-    "foto": "11.jpg",
-    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" , "Tomate","Tuna"]
-  },
-  {
-    "nombre": "White Pizza with Tomate and Mozzarella",
-    "precio": "15.00$",
-    "foto": "12.jpg",
-    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" , "Tomate","Mozzarella"]
-  },
-  {
-    "nombre": "Cannolo Siciliano",
-    "precio": "6.00$",
-    "foto": "15.jpg",
-    "Ingredientes": ["00","fluor","sugar","lard marsala","eggs","white wine","vinegar","fine salt","orange peel","cinnamon powder","sheep's","milk"]
-  },
+  
 
-  {
-    "nombre": "Fettuccine alla bolognese/Bolongese Fettuccine",
-    "precio": "9.00$",
-    "foto": "21.jpg",
-    "Ingredientes": ["Egg tagliatelle" , "Minced beef ", "Tomato puree ","Carrot" , " Celery","Onion","Red wine","Milk","Extra virgin olive oil" ,"Salt","Pepper"]
-  },
 
-  {
-    "nombre": "Fettuccine with shrimp and courgettes/Fettuccine gamberi e zucchine",
-    "precio": "9.00$",
-    "foto": "IMG-20241114-WA0221.jpg",
-    "Ingredientes": ["Fresh egg fettuccine" , "Shrimps" , "Zucchini" , "cream","dry white wine","Shallot","Onion","Extra virgin olive oil","Grated parmesan","Salt","Pepper"]
-  },
-  {
-    "nombre": "Penne ai 4 formaggi/Penne four cheeses",
-    "precio": "9.00$",
-    "foto": "IMG-20241114-WA0228.jpg",
-    "Ingredientes": ["Penne pasta","Gorgonzola gouda","Cream","Parmesan cheese"]
-  },
   {
     "nombre": "Tiramisu",
     "precio": "9.00$",
@@ -139,9 +157,11 @@
   },
   
   {
-    "nombre": "Penne with salmon / Penne al salmone",
-    "precio": "12.00$",
-    "foto": "IMG-20241116-WA0166.jpg",
-    "Ingredientes": ["Penne pasta","Oliva oil","Onion","Cream","Salmon","Salt","Parmesan cheese"]
+    "nombre": "Cannolo Siciliano",
+    "precio": "6.00$",
+    "foto": "15.jpg",
+    "Ingredientes": ["00","fluor","sugar","lard marsala","eggs","white wine","vinegar","fine salt","orange peel","cinnamon powder","sheep's","milk"]
   }
+
+
 ]
