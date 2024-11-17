@@ -1,0 +1,81 @@
+<div class="drawer">
+  <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+  <div class="drawer-content">
+    <div class="navbar bg-red-700 text-primary-content sticky top-0 z-50 ">
+      <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl" routerLink="/home">Food Truck</a>
+      </div>
+
+      <div class="tabs tabs-boxed justify-center my-4">
+        <a class="tab" [class.tab-active]="!type" (click)="onPlatos()">Foods</a>
+        <a class="tab" [class.tab-active]="type" (click)="onBebidas()">Drinks</a>
+      </div>
+      
+    </div>
+
+
+    <div class="p-4 bg-black  min-h-screen"
+      style="background-image: url(assets/food-table-1j6ik0elenqlwh4k.jpg);  background-size: cover;">
+      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <ng-container *ngIf="type; else foodItems">
+
+          @for (item of bebidas; track $index) {
+            <div data-aos="fade-up" data-aos-duration="2000"
+            class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+            <figure class="px-4 pt-4">
+              <img [src]="'assets/' + item.foto" [alt]="item.nombre" class="rounded-xl object-cover w-full h-full">
+            </figure>
+            <div class="card-body p-4">
+              <h2 class="card-title text-center justify-center text-lg">{{item.nombre}}</h2>
+          </div>
+          <div class="m-5" style="display: flex; justify-content: end;  flex-direction: column; text-align: end;">
+               
+            <p className="text-xl font-bold"  >{{item.precio}}</p>
+          
+        </div>
+        </div>
+          }
+        </ng-container>
+        <ng-template #foodItems>
+
+          @for (item of items; track $index) {
+            
+          <div data-aos="fade-up" data-aos-duration="2000"
+            class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+            <figure class="px-4 pt-4">
+              <img [src]="'assets/' + item.foto" [alt]="item.nombre" class="rounded-xl object-cover w-full h-60">
+            </figure>
+            <div class="card-body p-4">
+              <h2 class="card-title text-center justify-center text-lg">{{item.nombre}}</h2>
+              @if(item.nombre == "Pizza Margherita"){
+                <h2 class="text-center">Add of: Pepperoni,coocked jam , black olives / 4.00$</h2>
+              }
+              <div *ngIf="item.Ingredientes.length > 0" class="divider  my-2 divide-white"  >Ingredients</div>
+              <ul   *ngIf="item.Ingredientes && item.Ingredientes.length > 0" 
+                class="list-disc list-inside text-sm grid grid-cols-2">
+                
+                <li class="m-2" *ngFor="let ingrediente of item.Ingredientes" >{{ingrediente}}</li>
+              
+              </ul>
+          </div>
+          <div class="m-5" style="display: flex; justify-content: end;  flex-direction: column; text-align: end;">
+               
+            <p className="text-xl font-bold"  >{{item.precio}}</p>
+          
+        </div>
+        </div>
+      
+          }
+        </ng-template>
+      </div>
+    </div>
+  </div>
+  <div class="drawer-side">
+    <label for="my-drawer" class="drawer-overlay"></label>
+    <ul class="menu p-4 w-80 h-full bg-base-200 text-base-content">
+      <li><a routerLink="/home">Home</a></li>
+      <li><a (click)="onPlatos()">Foods</a></li>
+      <li><a (click)="onBebidas()">Drinks</a></li>
+    </ul>
+  </div>
+</div>

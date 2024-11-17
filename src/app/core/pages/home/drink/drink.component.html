@@ -1,0 +1,12 @@
+<div style="backdrop-filter: blur(6px);" class="card bg-base-100 shadow-xl">
+  <div class="card_img">
+    <img src="assets/{{ db[id].foto}}" alt="Shoes" class="rounded-xl lazy animations-scroll in-view-up" />
+  </div>
+  <div class="card-body">
+    <h1 class="card-title" style="justify-content: center;">{{ db[id].nombre }}</h1>
+
+
+    <hr [hidden]="short">
+    <p class="price">{{ ( !short ? db[id].precio:"") }}</p>
+  </div>
+</div>

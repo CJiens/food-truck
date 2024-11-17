@@ -1,0 +1,25 @@
+[
+    {
+        "nombre": "Water",
+        "precio": "1.00$",
+        "foto": "17.jpg"
+    },
+    {
+        "nombre": "Orange",
+        "precio": "2.50$",
+        "foto": "18.jpg"
+    },
+    {
+        "nombre": "Coca Cola",
+        "precio": "2.50$",
+        "foto": "20.jpeg"
+    },
+    {
+        "nombre": "Sprite",
+        "precio": "2.50$",
+        "foto": "19.jpg"
+    }
+
+
+
+]

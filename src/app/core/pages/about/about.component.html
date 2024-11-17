@@ -1,0 +1,54 @@
+<!-- about-us.component.html -->
+<div class="min-h-screen bg-cover bg-center" style="background-image: url('assets/IMG-20241114-WA0217.jpg');">
+  <div class="min-h-screen bg-black bg-opacity-60">
+    <!-- Navbar -->
+    <nav class="navbar  bg-red-700  text-primary-content sticky top-0 z-50">
+      <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl" routerLink="/home">Food Truck</a>
+      </div>
+    </nav>
+
+
+    <!-- Main content -->
+    <div class="container  mx-auto px-4 py-8">
+
+      <div class="card bg-base-100 bg-opacity-90 shadow-xl">
+        <h1 class="text-4xl font-bold text-center mb-8 text-black m-3">
+          {{  'About Us' }}
+        </h1>
+        
+  
+        <div class="card-body">
+          <h2 class="card-title text-2xl mb-4">
+            {{'Our Story' }}
+          </h2>
+          <p class="text-sm mb-4">
+            {{  'The passion behind our food' }}
+          </p>
+          <div class="flex flex-col md:flex-row gap-8">
+            <div class="md:w-1/3">
+              <img 
+                src="assets/IMG-20241114-WA0217.jpg" 
+                [alt]="  'Owner\'s photo'" 
+                class="rounded-lg shadow-md w-full h-auto"
+              >
+            </div>
+            <div class="md:w-2/3 space-y-4">
+              <p >
+                I was born in Cefalù in Sicily and at the age of 4 we moved with my family to Rome where I have always lived all my life since I was little I had a passion for cooking helping my mother and observing what she did at the age of 16 I started working as a kitchen assistant in a Roman restaurant and it is there that I began to know and practice the real Italian cuisine stealing a little of the trade from the best chefs and carefully observing all their work
+                Throughout my life I have cooked for my family and my friends cooking for me is a passion and I really like doing it throughout my life I have managed restaurants both in Italy and Cuba and now here I am again in my Italian food truck giving the best of myself
+              </p>
+              <p>
+                Nací en Cefalú en Sicilia y a los 4 años nos mudamos con mi familia a Roma donde siempre he vivido toda mi vida desde pequeña tenía pasión por la cocina ayudando a mi madre y observando lo que hacía a la edad. A los 16 años comencé a trabajar como ayudante de cocina en un restaurante romano y fue allí donde comencé a conocer y practicar la auténtica cocina italiana, robándome un poco el oficio de los mejores chefs y observando atentamente todo su trabajo.
+                A lo largo de mi vida he cocinado para mi familia y amigos. Cocinar para mí es una pasión y disfruto mucho haciéndolo. A lo largo de mi vida he administrado restaurantes tanto en Italia como en Cuba y ahora aquí estoy nuevamente en mi negocio de comida italiana. dando lo mejor de mi mismo
+                Ven y visitame
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>

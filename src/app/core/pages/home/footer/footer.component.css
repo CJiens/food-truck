@@ -1,0 +1,57 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.footer-content p {
+    font-size: 16px;
+}
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.socials a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.socials a {
+    transition: color 0.3s ease;
+}
+
+.socials a:hover {
+    color: #ffcc00; /* Cambia a un color brillante al pasar el mouse */
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+footer {
+    animation: slideIn 0.5s ease forwards; /* Aplica la animación */
+}

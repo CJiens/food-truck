@@ -1,0 +1,23 @@
+.card {
+  @apply overflow-hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+
+}
+
+.card-body {
+  @apply p-4;
+}
+.card-title {
+  @apply text-xl mb-2;
+}
+.list-disc li {
+  @apply mb-1;
+}
+@media (min-width: 768px) {
+  .card-body {
+    @apply p-6;
+  }
+}
+
+

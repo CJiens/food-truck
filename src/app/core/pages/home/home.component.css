@@ -1,0 +1,208 @@
+/* Estilos generales */
+.min-h-screen {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Título */
+.plato_dia {
+    font-size: 2.5rem;
+    color: #fff; /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para el texto */
+    margin-bottom: 20px;
+}
+
+/* Contenedor de platos */
+.plato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px; /* Espaciado entre platos */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Esconde el desbordamiento */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+    width: calc(100% - 30px); /* Ancho responsivo con margen */
+    max-width: 400px; /* Ancho máximo para los platos */
+}
+
+/* Efecto hover en platos */
+.plato:hover {
+    transform: translateY(-5px); /* Levanta el plato al pasar el mouse */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra más intensa */
+}
+
+/* Imagen del plato */
+.plato_dia_i { /* Asegúrate de que esta ruta sea correcta */
+    width: 500px; /* Ancho fijo para la imagen */
+    height: 150px; /* Alto fijo para la imagen */
+    background-size: cover; /* Ajusta la imagen al contenedor */
+    background-position: center; /* Centra la imagen */
+}
+
+
+/* Cuerpo de la tarjeta */
+.card-body {
+    padding: 15px; /* Espaciado interno */
+}
+
+/* Título del plato */
+.card-title {
+    font-size: 1.5rem;
+    color: #333; /* Color del texto del título */
+}
+
+/* Texto descriptivo */
+.card-body p {
+    color: #666; /* Color del texto descriptivo */
+}
+
+/* Animación de entrada para los platos */
+.plato {
+    opacity: 0; /* Comienza invisible */
+    transform: translateY(20px); /* Comienza desplazado hacia abajo */
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.plato:nth-child(1) {
+    animation: fadeInUp 0.5s forwards ease-in-out;
+}
+
+.plato:nth-child(2) {
+    animation: fadeInUp 0.7s forwards ease-in-out;
+}
+
+.plato:nth-child(3) {
+    animation: fadeInUp 0.9s forwards ease-in-out;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 480px) {
+    .plato {
+        width: calc(100% - 30px); /* Tarjetas ocupan todo el ancho en pantallas pequeñas */
+        max-width: none; /* Sin límite máximo en pantallas pequeñas */
+        margin: 10px; /* Ajusta el margen para pantallas pequeñas */
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas para mejor visualización */
+        align-items: flex-start; /* Alinea los elementos al inicio en pantallas pequeñas */
+    }
+
+    .plato_dia_i {
+        width: 100%; /* La imagen ocupa todo el ancho disponible en pantallas pequeñas */
+        height: auto; /* Mantiene la proporción de la imagen automáticamente */
+        max-height: 200px; /* Limita la altura máxima de la imagen si es necesario */
+        border-radius: 10px; /* Bordes redondeados para la imagen también */
+    }
+
+    .card-body {
+        padding: 10px; /* Reduce el espaciado interno en pantallas pequeñas */
+    }
+
+    .card-title {
+        font-size: 1.25rem; /* Reduce el tamaño del título en pantallas pequeñas */
+    }
+
+    .card-body p {
+        font-size: 0.9rem; /* Reduce el tamaño del texto descriptivo en pantallas pequeñas */
+        color: #555; /* Cambia el color del texto descriptivo para mejor contraste en pantallas pequeñas*/
+    }
+}
+
+/* Estilos generales */
+
+
+
+
+
+
+
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Fondo claro */
+}
+
+.containe {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias filas */
+    justify-content: center; /* Centra las tarjetas en la página */
+    padding: 20px; /* Espaciado alrededor del contenedor */
+}
+
+/* Tarjetas */
+.card {
+    margin: 15px; /* Espaciado entre tarjetas */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Esconde el desbordamiento */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+    width: calc(100% - 30px); /* Ancho responsivo con margen */
+    max-width: 300px; /* Ancho máximo para las tarjetas */
+}
+
+/* Efecto hover en tarjetas */
+.card:hover {
+    transform: translateY(-5px); /* Levanta la tarjeta al pasar el mouse */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra más intensa */
+}
+
+/* Imagen de la tarjeta */
+.card_img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Cuerpo de la tarjeta */
+.card-body {
+    padding: 15px; /* Espaciado interno */
+}
+
+/* Título de la tarjeta */
+.card-title {
+    font-size: 1.5rem;
+    color: #333; /* Color del texto del título */
+}
+
+/* Texto descriptivo */
+.card-body p {
+    color: #666; /* Color del texto descriptivo */
+}
+
+/* Animación de entrada para las tarjetas */
+.card {
+    opacity: 0; /* Comienza invisible */
+    transform: translateY(20px); /* Comienza desplazado hacia abajo */
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card:nth-child(1) {
+    animation: fadeInUp 0.5s forwards ease-in-out;
+}
+
+.card:nth-child(2) {
+    animation: fadeInUp 0.7s forwards ease-in-out;
+}
+
+.card:nth-child(3) {
+    animation: fadeInUp 0.9s forwards ease-in-out;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 480px) {
+    .card {
+        width: calc(100% - 30px); /* Tarjetas ocupan todo el ancho en pantallas pequeñas */
+        max-width: none; /* Sin límite máximo en pantallas pequeñas */
+        margin: 10px; /* Ajusta el margen para pantallas pequeñas */
+    }
+}

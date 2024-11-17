@@ -1,0 +1,66 @@
+
+/* Hero Section */
+.hero {
+    min-height: 100vh; /* Altura mínima */
+    background-size: cover; /* Ajusta la imagen al contenedor */
+    background-position: center; /* Centra la imagen */
+    background-image: url(../../../../../assets/IMG-20241116-WA0159.jpg); 
+    background-attachment: fixed;
+    display: flex; /* Utiliza flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    position: relative; /* Para posicionar elementos absolutamente si es necesario */
+}
+
+/* Título del Hero */
+.hero-title {
+    font-size: 3rem; /* Tamaño del texto */
+    color: white; /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para el texto */
+    margin-bottom: 20px;
+}
+
+/* Descripción del Hero */
+.hero-description {
+    color: white; /* Color del texto */
+    font-size: 1.25rem; /* Tamaño de la descripción */
+}
+
+/* Botón del Hero */
+.hero-button {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 1rem; /* Tamaño del texto en el botón */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+}
+
+/* Efecto hover en el botón */
+.hero-button:hover {
+    background-color: #ff8c00; /* Cambia el color de fondo al pasar el mouse */
+    transform: translateY(-3px); /* Levanta el botón al pasar el mouse */
+}
+
+/* Animación de entrada para el título y descripción */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Comienza desplazado hacia abajo */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Termina en su posición original */
+    }
+}
+
+.hero-title,
+.hero-description {
+    animation: fadeIn 0.8s forwards ease-in-out; /* Aplica la animación de entrada */
+}
+
+.hero-title {
+    animation-delay: 0.2s; /* Retraso en la animación del título */
+}
+
+.hero-description {
+    animation-delay: 0.4s; /* Retraso en la animación de la descripción */
+}
