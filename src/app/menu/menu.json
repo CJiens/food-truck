@@ -18,7 +18,7 @@
 
   {
     "nombre": "Fettuccine with shrimp and courgettes/Fettuccine gamberi e zucchine",
-    "precio": "9.00$",
+    "precio": "18.00$",
     "foto": "IMG-20241114-WA0221.jpg",
     "Ingredientes": ["Fresh egg fettuccine" , "Shrimps" , "Zucchini" , "cream","dry white wine","Shallot","Onion","Extra virgin olive oil","Grated parmesan","Salt","Pepper"]
   },
@@ -66,6 +66,10 @@
     ]
   },
 
+
+
+
+
   {
     "nombre": "Pizza Margherita",
     "precio": "15.00$",
@@ -78,9 +82,6 @@
     "foto": "8.jpg",
     "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" ,"Mortadella"]
   },
-
-
-
 
   {
     "nombre": "White Pizza with Ham and Mozzarella",
@@ -118,7 +119,7 @@
 
   {
     "nombre": "Regular Burger with chips",
-    "precio": "6.00$",
+    "precio": "8.00$",
     "foto": "IMG-20241114-WA0225.jpg",
     "Ingredientes": ["Ground chuck and beef patties","Tomatoes and chips"]
   },
