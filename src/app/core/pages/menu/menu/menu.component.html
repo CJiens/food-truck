@@ -1,15 +1,22 @@
 <div class="drawer">
   <input id="my-drawer" type="checkbox" class="drawer-toggle" />
   <div class="drawer-content">
-    <div class="navbar bg-red-700 text-primary-content sticky top-0 z-50 ">
-      <div class="flex-1">
+    <div class="navbar bg-red-700 text-primary-content sticky top-0 z-50">
+      <div class="navbar-start">
         <a class="btn btn-ghost normal-case text-xl" routerLink="/home">Food Truck</a>
       </div>
 
-      <div class="tabs tabs-boxed justify-center my-4">
+
+      
+
+      <div class="tabs tabs-boxed navbar-center">
         <a class="tab" [class.tab-active]="!type" (click)="onPlatos()">Foods</a>
         <a class="tab" [class.tab-active]="type" (click)="onBebidas()">Drinks</a>
       </div>
+
+
+      <div class="navbar-end"></div>
+
       
     </div>
 
