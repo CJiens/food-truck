@@ -42,13 +42,7 @@
     "Ingredientes": ["Rigatoni pasta","Egg","Bacon","Black pepper","Parmesan cheese"
     ]
   },
-  {
-    "nombre": "Amatriciana Rigatoni/Rigatoni alla Amatricana",
-    "precio": "16.00$",
-    "foto": "4.jpg",
-    "Ingredientes": ["Rigatoni pasta","Onion","Tomato sauce","Bacon","Parmesan cheese"
-    ]
-  },
+
   {
     "nombre": "Eggplant Parmesan / Melanzane alla parmigiana",
     "precio": "14.00$",
@@ -66,7 +60,13 @@
     ]
   },
 
-
+  {
+    "nombre": "Amatriciana Rigatoni/Rigatoni alla Amatricana",
+    "precio": "16.00$",
+    "foto": "4.jpg",
+    "Ingredientes": ["Rigatoni pasta","Onion","Tomato sauce","Bacon","Parmesan cheese"
+    ]
+  },
 
 
 
