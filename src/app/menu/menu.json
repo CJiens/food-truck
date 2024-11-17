@@ -44,14 +44,6 @@
   },
 
   {
-    "nombre": "Eggplant Parmesan / Melanzane alla parmigiana",
-    "precio": "14.00$",
-    "foto": "6.jpg",
-    "Ingredientes": [
-"Black oval eggplant","Tomato puree ","Mozzarella cheese" ,"Parmigiano","Reggiano DOP,Golden onions","Basil","Extra virgin olive oil","Fine salt","Black pepper","Penaut seed oil"
-    ]
-  },
-  {
     "nombre": "Boscaiola Fettuccine/Fettuccine alla Boscaiola",
     "precio": "18.00$",
     "foto": "5.jpg",
@@ -69,6 +61,14 @@
   },
 
 
+  {
+    "nombre": "Eggplant Parmesan / Melanzane alla parmigiana",
+    "precio": "14.00$",
+    "foto": "6.jpg",
+    "Ingredientes": [
+"Black oval eggplant","Tomato puree ","Mozzarella cheese" ,"Parmigiano","Reggiano DOP,Golden onions","Basil","Extra virgin olive oil","Fine salt","Black pepper","Penaut seed oil"
+    ]
+  },
 
   {
     "nombre": "Pizza Margherita",
