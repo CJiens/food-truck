@@ -23,13 +23,13 @@
     "Ingredientes": ["Fresh egg fettuccine" , "Shrimps" , "Zucchini" , "cream","dry white wine","Shallot","Onion","Extra virgin olive oil","Grated parmesan","Salt","Pepper"]
   },
   {
-    "nombre": "Penne ai 4 formaggi/Penne four cheeses",
+    "nombre": "Penne four cheeses / Penne ai 4 formaggi",
     "precio": "18.00$",
     "foto": "IMG-20241114-WA0228.jpg",
     "Ingredientes": ["Penne pasta","Gorgonzola gouda","Cream","Parmesan cheese"]
   },
   {
-    "nombre": "Penne with salmon / Penne al salmone",
+    "nombre": " Penne al salmone / Penne with salmon ",
     "precio": "18.00$",
     "foto": "IMG-20241116-WA0166.jpg",
     "Ingredientes": ["Penne pasta","Oliva oil","Onion","Cream","Salmon","Salt","Parmesan cheese"]
@@ -125,7 +125,7 @@
   },
   {
     "nombre": "Mozzarella Cheese Burger with chips",
-    "precio": "8.00$",
+    "precio": "10.00$",
     "foto": "IMG-20241114-WA0224.jpg",
     "Ingredientes": ["Ground chuck and beef patties","Tomatoes","Mozzarella cheese","Chips"]
   },
