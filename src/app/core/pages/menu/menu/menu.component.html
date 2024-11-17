@@ -2,20 +2,19 @@
   <input id="my-drawer" type="checkbox" class="drawer-toggle" />
   <div class="drawer-content">
     <div class="navbar bg-red-700 text-primary-content sticky top-0 z-50">
-      <div class="navbar-start">
+      <div class="navbar">
         <a class="btn btn-ghost normal-case text-xl" routerLink="/home">Food Truck</a>
       </div>
 
 
       
 
-      <div class="tabs tabs-boxed navbar-center">
+      <div class="tabs tabs-boxed ">
         <a class="tab" [class.tab-active]="!type" (click)="onPlatos()">Foods</a>
         <a class="tab" [class.tab-active]="type" (click)="onBebidas()">Drinks</a>
       </div>
 
 
-      <div class="navbar-end"></div>
 
       
     </div>
