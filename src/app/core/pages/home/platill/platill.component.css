@@ -2,13 +2,6 @@
 
 
 
-.card:hover {
-    transform: scale(120%);
-    transition: 0.5s;
-    color: yellow;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-}
-
 .card {
     color: white;
     background-color: rgb(10, 10, 10, 0.8);
