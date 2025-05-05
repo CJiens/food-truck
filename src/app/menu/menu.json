@@ -23,8 +23,8 @@
     "nombre": "Fettuccine with Seafood",
     "precio": "22.00 $",
     "foto": "29.jpg",
-    "Ingredientes": ["Fettuccine", "pasta garlic" 
-    ,"olive oil" ,"seafood",  "tomate souce"]
+    "Ingredientes": ["Fettuccine pasta","garlic", 
+    "olive oil" ,"seafood",  "tomate souce"]
   },
   {
     "nombre": "Penne four cheeses / Penne ai 4 formaggi",
@@ -103,23 +103,23 @@
     "nombre": "Slice Pizza",
     "precio": "3.90$",
     "foto": "27.jpg",
-    "Ingredientes": ["Pizza", "dough",
-    "tomatoes", "souce" , 
-    "mozzarella" ,"cheese"]
+    "Ingredientes": ["Pizza dough",
+    "tomato souce" , 
+    "mozzarella cheese"]
   },
   {
     "nombre": "Chiken Parmesan Sandwich",
     "precio": "10.00$",
     "foto": "26.jpg",
-    "Ingredientes": ["Bread" ,"breaded", "chicken" ,"breast", 
-    "tomato", "souce", "bacon", "parmesan" ,"cheese"]
+    "Ingredientes": ["Bread" ,"breaded chicken breast", 
+    "tomato souce", "bacon", "parmesan cheese"]
   },
   {
     "nombre": "Italian Sausages Sandwich",
     "precio": "10.00 $",
     "foto": "28.jpg",
-    "Ingredientes": ["Bread", "Italian", "sausage", "peppers",
-    "onions" , "zucchini", "olive oil", "salt"]
+    "Ingredientes": ["Bread", "Italian sausage", "peppers",
+    "onions" , "zucchini"]
   },
   {
     "nombre": "Crepes with Berries",
@@ -154,8 +154,10 @@
     "nombre": "Cooked Ham and Mozzarella Cheese Crepes",
     "precio": "10.00 $",
     "foto": "31.jpg",
-    "Ingredientes": ["Bread", "breaded", "chicken", "breast", 
-    "tomato souce", "bacon",  "parmesan cheese"]
+    "Ingredientes": ["Milk butter", 
+    "eggs" , "flour",
+     "Cooked ham",
+   "mozzarella cheese"]
   },
 
   {
