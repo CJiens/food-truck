@@ -20,6 +20,13 @@
     "Ingredientes": ["Fresh egg fettuccine" , "Shrimps" , "Zucchini" , "cream","dry white wine","Shallot","Onion","Extra virgin olive oil","Grated parmesan","Salt","Pepper"]
   },
   {
+    "nombre": "Fettuccine with Seafood",
+    "precio": "22.00 $",
+    "foto": "29.jpg",
+    "Ingredientes": ["Fettuccine", "pasta garlic" 
+    ,"olive oil" ,"seafood",  "tomate souce"]
+  },
+  {
     "nombre": "Penne four cheeses / Penne ai 4 formaggi",
     "precio": "18.00$",
     "foto": "IMG-20241114-WA0228.jpg",
@@ -67,12 +74,7 @@
     "foto": "7.jpg",
     "Ingredientes": ["Flour","Waterfall","Dry brewer's yeast","Extra virgin olive oil","Fine salt","Peeled tomatoes","Mozzarella cheese ","Grana padano DOP","Basil"]
   },
-  {
-    "nombre": "White Pizza with Mortadella",
-    "precio": "14.00$",
-    "foto": "8.jpg",
-    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" ,"Mortadella"]
-  },
+
   {
     "nombre": "White Pizza with Ham and Mozzarella",
     "precio": "16.00$",
@@ -97,6 +99,65 @@
     "foto": "12.jpg",
     "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" , "Tomate","Mozzarella"]
   },
+  {
+    "nombre": "Slice Pizza",
+    "precio": "3.90$",
+    "foto": "27.jpg",
+    "Ingredientes": ["Pizza", "dough",
+    "tomatoes", "souce" , 
+    "mozzarella" ,"cheese"]
+  },
+  {
+    "nombre": "Chiken Parmesan Sandwich",
+    "precio": "10.00$",
+    "foto": "26.jpg",
+    "Ingredientes": ["Bread" ,"breaded", "chicken" ,"breast", 
+    "tomato", "souce", "bacon", "parmesan" ,"cheese"]
+  },
+  {
+    "nombre": "Italian Sausages Sandwich",
+    "precio": "10.00 $",
+    "foto": "28.jpg",
+    "Ingredientes": ["Bread", "Italian", "sausage", "peppers",
+    "onions" , "zucchini", "olive oil", "salt"]
+  },
+  {
+    "nombre": "Crepes with Berries",
+    "precio": "10.00$",
+    "foto": "22.jpg",
+    "Ingredientes": ["Milk", "butter" ,"eggs", "flour",
+  " Berries"]
+  },
+  {
+    "nombre": "Crepes with ice-cream and berries",
+    "precio": "12.00$",
+    "foto": "23.jpg",
+    "Ingredientes": ["Milk", "butter", "eggs", "flour", 
+    "Ice-cream" , "berries"]
+  },
+  {
+    "nombre": "Nutella Crepes",
+    "precio": "10.00$",
+    "foto": "24.jpg",
+    "Ingredientes": ["Milk", "butter", "eggs", "flour", 
+     "Nutella"]
+  },
+
+  {
+    "nombre": "Honey Crepes",
+    "precio": "8.00$",
+    "foto": "25.jpg",
+    "Ingredientes": ["Milk" ,"butter", "eggs", "flour" 
+  , "Honey"]
+  },
+  {
+    "nombre": "Cooked Ham and Mozzarella Cheese Crepes",
+    "precio": "10.00 $",
+    "foto": "31.jpg",
+    "Ingredientes": ["Bread", "breaded", "chicken", "breast", 
+    "tomato souce", "bacon",  "parmesan cheese"]
+  },
+
   {
     "nombre": "Regular Burger with chips",
     "precio": "8.00$",
@@ -128,6 +189,13 @@
     "Ingredientes": ["Ground chuck and beef patties","Mozzarella cheese","Ham","Egg","Bacon and chips"]
   },
   {
+    "nombre": "Shrimp Skewers with Peppers and Chips",
+    "precio": "19.00 $",
+    "foto": "30.jpg",
+    "Ingredientes": ["Shrimps" ,"peppers", "garlic",
+    "olive oil" ,"chips"]
+  },
+  {
     "nombre": "Tiramisu",
     "precio": "9.00$",
     "foto": "16.jpg",
@@ -139,4 +207,8 @@
     "foto": "15.jpg",
     "Ingredientes": ["00","fluor","sugar","lard marsala","eggs","white wine","vinegar","fine salt","orange peel","cinnamon powder","sheep's","milk"]
   }
+
+
+
+
 ]
