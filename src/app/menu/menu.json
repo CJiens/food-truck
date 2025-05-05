@@ -88,16 +88,16 @@
     "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" ,"Mozzarella","Cooked Ham"]
   },
   {
-    "nombre": "White Pizza with Tuna and Tomate",
+    "nombre": "White Pizza with Tuna and tomato",
     "precio": "15.00$",
     "foto": "11.jpg",
-    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" , "Tomate","Tuna"]
+    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" , "tomato","Tuna"]
   },
   {
-    "nombre": "White Pizza with Tomate and Mozzarella",
+    "nombre": "White Pizza with tomato and Mozzarella",
     "precio": "15.00$",
     "foto": "12.jpg",
-    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" , "Tomate","Mozzarella"]
+    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" , "tomato","Mozzarella"]
   },
   {
     "nombre": "Slice Pizza",
@@ -154,7 +154,7 @@
     "nombre": "Cooked Ham and Mozzarella Cheese Crepes",
     "precio": "10.00 $",
     "foto": "31.jpg",
-    "Ingredientes": ["Milk butter", 
+    "Ingredientes": ["Milk" ,"butter", 
     "eggs" , "flour",
      "Cooked ham",
    "mozzarella cheese"]
