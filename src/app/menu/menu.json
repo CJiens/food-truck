@@ -5,9 +5,9 @@
     "foto": "1.jpg",
     "Ingredientes": [
       "Fettuccine pasta",
-      "butter",
-      "cream",
-      "parmesan cheese"
+      "Butter",
+      "Cream",
+      "Parmesan cheese"
     ]
   },
   {
@@ -16,10 +16,10 @@
     "foto": "2.jpg",
     "Ingredientes": [
       "Fettuccine pasta",
-      "cream",
-      "butter",
-      "chicken",
-      "parmesan cheese"
+      "Cream",
+      "Butter",
+      "Chicken",
+      "Parmesan cheese"
     ]
   },
   {
@@ -28,10 +28,10 @@
     "foto": "3.jpg",
     "Ingredientes": [
       "Fettuccine pasta",
-      "butter",
-      "cream",
+      "Butter",
+      "Cream",
       "Shrimps",
-      "parmesan cheese"
+      "Parmesan cheese"
     ]
   },
   {
@@ -40,10 +40,10 @@
     "foto": "4.jpg",
     "Ingredientes": [
       "Fettuccine pasta",
-      "tomatoes sauce",
-      "bacon",
-      "meat ball",
-      "parmesan cheese"
+      "Tomatoes sauce",
+      "Bacon",
+      "Meat ball",
+      "Parmesan cheese"
     ]
   },
   {
@@ -52,9 +52,9 @@
     "foto": "5.jpg",
     "Ingredientes": [
       "Fettuccine pasta",
-      "tomatoes sauce",
-      "bacon",
-      "parmesan cheese"
+      "Tomatoes sauce",
+      "Bacon",
+      "Parmesan cheese"
     ]
   },
   {
@@ -63,8 +63,9 @@
     "foto": "6.jpg",
     "Ingredientes": [
       "Fettuccine pasta",
-      "gaud blue cheese",
-      "parmesan cheese",
+      "Gouda",
+      "Blue cheese",
+      "Parmesan cheese",
       "Pacarino romano cheese"
     ]
   },
@@ -74,10 +75,10 @@
     "foto": "7.jpg",
     "Ingredientes": [
       "Bread",
-      "meat",
-      "lettuce",
-      "tomatoes",
-      "chips"
+      "Meat",
+      "Lettuce",
+      "Tomatoes",
+      "Chips"
     ]
   },
   {
@@ -86,11 +87,11 @@
     "foto": "8.jpg",
     "Ingredientes": [
       "Bread",
-      "meat",
+      "Meat",
       "Mozzarella cheese",
-      "lettuce",
-      "tomatoes",
-      "chips"
+      "Lettuce",
+      "Tomatoes",
+      "Chips"
     ]
   },
   {
@@ -99,12 +100,12 @@
     "foto": "9.jpg",
     "Ingredientes": [
       "Bread",
-      "meat",
-      "ham",
+      "Meat",
+      "Ham",
       "Mozzarella cheese",
-      "tomatoes",
-      "lettuce",
-      "chips"
+      "Tomatoes",
+      "Lettuce",
+      "Chips"
     ]
   },
   {
@@ -113,13 +114,13 @@
     "foto": "10.jpg",
     "Ingredientes": [
       "Bread",
-      "meat",
-      "egg",
+      "Meat",
+      "Egg",
       "Mozzarella cheese",
-      "ham",
-      "tomatoes",
-      "lettuce",
-      "chips"
+      "Ham",
+      "Tomatoes",
+      "Lettuce",
+      "Chips"
     ]
   },
   {
@@ -128,14 +129,14 @@
     "foto": "11.jpg",
     "Ingredientes": [
       "Bread",
-      "meat",
-      "mozzarella cheese",
-      "ham",
-      "egg",
-      "bacon",
-      "tomatoes",
-      "lettuce",
-      "chips"
+      "Meat",
+      "Mozzarella cheese",
+      "Ham",
+      "Egg",
+      "Bacon",
+      "Tomatoes",
+      "Lettuce",
+      "Chips"
     ]
   },
   {
@@ -144,7 +145,7 @@
     "foto": "12.jpg",
     "Ingredientes": [
       "Tomatoes sauce",
-      "cheese"
+      "Cheese"
     ]
   },
   {
@@ -153,7 +154,7 @@
     "foto": "13.jpg",
     "Ingredientes": [
       "Tomatoes sauce",
-      "mozzarella cheese",
+      "Mozzarella cheese",
       "Pepperoni"
     ]
   },
@@ -163,8 +164,8 @@
     "foto": "14.jpg",
     "Ingredientes": [
       "Tomatoes sauce",
-      "mozzarella cheese",
-      "ham"
+      "Mozzarella cheese",
+      "Ham"
     ]
   },
   {
@@ -173,7 +174,7 @@
     "foto": "15.jpg",
     "Ingredientes": [
       "Tomatoes sauce",
-      "mozzarella cheese",
+      "Mozzarella cheese",
       "Tuna"
     ]
   },
@@ -183,7 +184,7 @@
     "foto": "16.jpg",
     "Ingredientes": [
       "Tomatoes sauce",
-      "mozzarella cheese",
+      "Mozzarella cheese",
       "Prosciutto"
     ]
   },
@@ -193,8 +194,8 @@
     "foto": "17.jpg",
     "Ingredientes": [
       "Tomatoes sauce",
-      "mozzarella cheese",
-      "pineapple"
+      "Mozzarella cheese",
+      "Pineapple"
     ]
   },
   {
@@ -203,19 +204,20 @@
     "foto": "18.jpg",
     "Ingredientes": [
       "Crepe made with egg flour butter",
-      "mozzarella cheese",
-      "ham"
+      "Mozzarella cheese",
+      "Ham"
     ]
   },
   {
     "nombre": "Four Cheeses Crepes",
     "precio": "12.00 $",
-    "foto": "19.jpg",
+    "foto": "19.jpeg",
     "Ingredientes": [
-      "Crepes made with flour milk butter eggs",
-      "parmesan cheese",
-      "Pacarino cheese",
-      "gaud blue cheese"
+      "Crepes made with butter flour milk  eggs",
+      "Parmesan cheese",
+      "Pecorino cheese",
+      "Gouda",
+      "Blue cheese"
     ]
   },
   {
@@ -233,7 +235,7 @@
     "foto": "21.jpg",
     "Ingredientes": [
       "Canroll biscuit",
-      "ricotta cream from sichy"
+      "Ricotta cream from sichy"
     ]
   }
 ]
