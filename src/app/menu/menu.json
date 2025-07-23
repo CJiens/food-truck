@@ -1,216 +1,239 @@
 [
   {
-    "nombre": "Bolognese Lasagne",
-    "precio": "14.95$",
+    "nombre": "Alfredo Fettuccine",
+    "precio": "16.00 $",
     "foto": "1.jpg",
     "Ingredientes": [
-    "Pasta for lasagne","Minced beef","Carrots","Celery","Golden onions","Red wine","Tomato puree","Vegetable broth","Extra virgin olive oil","Bechamel souce"
+      "Fettuccine pasta",
+      "butter",
+      "cream",
+      "parmesan cheese"
     ]
   },
   {
-    "nombre": "Fettuccine alla bolognese/Bolongese Fettuccine",
-    "precio": "16.00$",
-    "foto": "21.jpg",
-    "Ingredientes": ["Egg tagliatelle" , "Minced beef ", "Tomato puree ","Carrot" , " Celery","Onion","Red wine","Milk","Extra virgin olive oil" ,"Salt","Pepper"]
+    "nombre": "Chicken Alfredo Fettuccine",
+    "precio": "18.00 $",
+    "foto": "2.jpg",
+    "Ingredientes": [
+      "Fettuccine pasta",
+      "cream",
+      "butter",
+      "chicken",
+      "parmesan cheese"
+    ]
   },
   {
-    "nombre": "Fettuccine with shrimp and courgettes/Fettuccine gamberi e zucchine",
-    "precio": "18.00$",
-    "foto": "IMG-20241114-WA0221.jpg",
-    "Ingredientes": ["Fresh egg fettuccine" , "Shrimps" , "Zucchini" , "cream","dry white wine","Shallot","Onion","Extra virgin olive oil","Grated parmesan","Salt","Pepper"]
-  },
-  {
-    "nombre": "Fettuccine with Seafood",
-    "precio": "22.00 $",
-    "foto": "29.jpg",
-    "Ingredientes": ["Fettuccine pasta","garlic", 
-    "olive oil" ,"seafood",  "tomato souce"]
-  },
-  {
-    "nombre": "Penne four cheeses / Penne ai 4 formaggi",
-    "precio": "18.00$",
-    "foto": "IMG-20241114-WA0228.jpg",
-    "Ingredientes": ["Penne pasta","Gorgonzola gouda","Cream","Pecorino","Parmesan aged 24 months"]
-  },
-  {
-    "nombre": " Penne al salmone / Penne with salmon ",
-    "precio": "18.00$",
-    "foto": "IMG-20241116-WA0166.jpg",
-    "Ingredientes": ["Penne pasta","Oliva oil","Onion","Cream","Salmon","Salt","Parmesan cheese"]
-  },
-  {
-    "nombre": "Carbonara Rigatoni/Rigatoni alla Carbonara",
-    "precio": "16.00$",
+    "nombre": "Shrimps Alfredo Fettuccine",
+    "precio": "19.00 $",
     "foto": "3.jpg",
-    "Ingredientes": ["Rigatoni pasta","Egg","Bacon","Black pepper","Parmesan cheese"
+    "Ingredientes": [
+      "Fettuccine pasta",
+      "butter",
+      "cream",
+      "Shrimps",
+      "parmesan cheese"
     ]
   },
   {
-    "nombre": "Boscaiola Fettuccine/Fettuccine alla Boscaiola",
-    "precio": "18.00$",
+    "nombre": "Meat Ball Amatriciana Fettuccine",
+    "precio": "18.00 $",
+    "foto": "4.jpg",
+    "Ingredientes": [
+      "Fettuccine pasta",
+      "tomatoes sauce",
+      "bacon",
+      "meat ball",
+      "parmesan cheese"
+    ]
+  },
+  {
+    "nombre": "Amatriciana Fettuccine",
+    "precio": "16.00 $",
     "foto": "5.jpg",
     "Ingredientes": [
-    "Fettuccine pasta ", "Onion" , "Cream" , "Coocked ham" , "Mushrooms peas" , "Parmesan cheese"
+      "Fettuccine pasta",
+      "tomatoes sauce",
+      "bacon",
+      "parmesan cheese"
     ]
   },
   {
-    "nombre": "Amatriciana Rigatoni/Rigatoni alla Amatricana",
-    "precio": "16.00$",
-    "foto": "4.jpg",
-    "Ingredientes": ["Rigatoni pasta","Onion","Tomato sauce","Bacon","Parmesan cheese"
-    ]
-  },
-  {
-    "nombre": "Eggplant Parmesan / Melanzane alla parmigiana",
-    "precio": "14.00$",
+    "nombre": "Fettuccine or Penne 4 Cheeses",
+    "precio": "18.00 $",
     "foto": "6.jpg",
     "Ingredientes": [
-"Black oval eggplant","Tomato puree ","Mozzarella cheese" ,"Parmigiano","Reggiano DOP,Golden onions","Basil","Extra virgin olive oil","Fine salt","Black pepper","Penaut seed oil"
+      "Fettuccine pasta",
+      "gaud blue cheese",
+      "parmesan cheese",
+      "Pacarino romano cheese"
     ]
   },
   {
-    "nombre": "Pizza Margherita",
-    "precio": "15.00$",
+    "nombre": "Regular Burger",
+    "precio": "8.00 $",
     "foto": "7.jpg",
-    "Ingredientes": ["Flour","Waterfall","Dry brewer's yeast","Extra virgin olive oil","Fine salt","Peeled tomatoes","Mozzarella cheese ","Grana padano DOP","Basil"]
-  },
-
-  {
-    "nombre": "White Pizza with Ham and Mozzarella",
-    "precio": "16.00$",
-    "foto": "9.jpg",
-    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" , "Ham","Mozzarella"]
-  },
-  {
-    "nombre": "White Pizza with cooked ham and Mozzarella",
-    "precio": "14.00$",
-    "foto": "10.jpg",
-    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" ,"Mozzarella","Cooked Ham"]
+    "Ingredientes": [
+      "Bread",
+      "meat",
+      "lettuce",
+      "tomatoes",
+      "chips"
+    ]
   },
   {
-    "nombre": "White Pizza with Tuna and tomato",
-    "precio": "15.00$",
-    "foto": "11.jpg",
-    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" , "tomato","Tuna"]
-  },
-  {
-    "nombre": "White Pizza with tomato and Mozzarella",
-    "precio": "15.00$",
-    "foto": "12.jpg",
-    "Ingredientes": ["Water","Milk","Sugar","Virgin oil","Brewer's Yeast" , "tomato","Mozzarella"]
-  },
-  {
-    "nombre": "Slice Pizza",
-    "precio": "3.90$",
-    "foto": "27.jpg",
-    "Ingredientes": ["Pizza dough",
-    "tomato souce" , 
-    "mozzarella cheese"]
-  },
-  {
-    "nombre": "Chiken Parmesan Sandwich",
-    "precio": "10.00$",
-    "foto": "26.jpg",
-    "Ingredientes": ["Bread" ,"breaded chicken breast", 
-    "tomato souce", "bacon", "parmesan cheese"]
-  },
-  {
-    "nombre": "Italian Sausages Sandwich",
+    "nombre": "Mozzarella Cheese Burger",
     "precio": "10.00 $",
-    "foto": "28.jpg",
-    "Ingredientes": ["Bread", "Italian sausage", "peppers",
-    "onions" , "zucchini"]
+    "foto": "8.jpg",
+    "Ingredientes": [
+      "Bread",
+      "meat",
+      "Mozzarella cheese",
+      "lettuce",
+      "tomatoes",
+      "chips"
+    ]
   },
   {
-    "nombre": "Crepes with Berries",
-    "precio": "10.00$",
-    "foto": "22.jpg",
-    "Ingredientes": ["Milk", "butter" ,"eggs", "flour",
-  " Berries"]
+    "nombre": "Ham Mozzarella Cheese Burger",
+    "precio": "12.00 $",
+    "foto": "9.jpg",
+    "Ingredientes": [
+      "Bread",
+      "meat",
+      "ham",
+      "Mozzarella cheese",
+      "tomatoes",
+      "lettuce",
+      "chips"
+    ]
   },
   {
-    "nombre": "Crepes with ice-cream and berries",
-    "precio": "12.00$",
-    "foto": "23.jpg",
-    "Ingredientes": ["Milk", "butter", "eggs", "flour", 
-    "Ice-cream" , "berries"]
+    "nombre": "Full Burger",
+    "precio": "14.00 $",
+    "foto": "10.jpg",
+    "Ingredientes": [
+      "Bread",
+      "meat",
+      "egg",
+      "Mozzarella cheese",
+      "ham",
+      "tomatoes",
+      "lettuce",
+      "chips"
+    ]
+  },
+  {
+    "nombre": "Super Full Burger",
+    "precio": "16.00 $",
+    "foto": "11.jpg",
+    "Ingredientes": [
+      "Bread",
+      "meat",
+      "mozzarella cheese",
+      "ham",
+      "egg",
+      "bacon",
+      "tomatoes",
+      "lettuce",
+      "chips"
+    ]
+  },
+  {
+    "nombre": "Cheese Pizza Margherita",
+    "precio": "15.00 $",
+    "foto": "12.jpg",
+    "Ingredientes": [
+      "Tomatoes sauce",
+      "cheese"
+    ]
+  },
+  {
+    "nombre": "Pepperoni Pizza",
+    "precio": "19.00 $",
+    "foto": "13.jpg",
+    "Ingredientes": [
+      "Tomatoes sauce",
+      "mozzarella cheese",
+      "Pepperoni"
+    ]
+  },
+  {
+    "nombre": "Ham Pizza",
+    "precio": "19.00 $",
+    "foto": "14.jpg",
+    "Ingredientes": [
+      "Tomatoes sauce",
+      "mozzarella cheese",
+      "ham"
+    ]
+  },
+  {
+    "nombre": "Tuna Pizza",
+    "precio": "19.50 $",
+    "foto": "15.jpg",
+    "Ingredientes": [
+      "Tomatoes sauce",
+      "mozzarella cheese",
+      "Tuna"
+    ]
+  },
+  {
+    "nombre": "Prosciutto Pizza",
+    "precio": "19.50 $",
+    "foto": "16.jpg",
+    "Ingredientes": [
+      "Tomatoes sauce",
+      "mozzarella cheese",
+      "Prosciutto"
+    ]
+  },
+  {
+    "nombre": "Awajana Pizza",
+    "precio": "19.00 $",
+    "foto": "17.jpg",
+    "Ingredientes": [
+      "Tomatoes sauce",
+      "mozzarella cheese",
+      "pineapple"
+    ]
+  },
+  {
+    "nombre": "Crepes with Ham and Cheese",
+    "precio": "10.00 $",
+    "foto": "18.jpg",
+    "Ingredientes": [
+      "Crepe made with egg flour butter",
+      "mozzarella cheese",
+      "ham"
+    ]
+  },
+  {
+    "nombre": "Four Cheeses Crepes",
+    "precio": "12.00 $",
+    "foto": "19.jpg",
+    "Ingredientes": [
+      "Crepes made with flour milk butter eggs",
+      "parmesan cheese",
+      "Pacarino cheese",
+      "gaud blue cheese"
+    ]
   },
   {
     "nombre": "Nutella Crepes",
-    "precio": "10.00$",
-    "foto": "24.jpg",
-    "Ingredientes": ["Milk", "butter", "eggs", "flour", 
-     "Nutella"]
-  },
-
-  {
-    "nombre": "Honey Crepes",
-    "precio": "8.00$",
-    "foto": "25.jpg",
-    "Ingredientes": ["Milk" ,"butter", "eggs", "flour" 
-  , "Honey"]
-  },
-  {
-    "nombre": "Cooked Ham and Mozzarella Cheese Crepes",
     "precio": "10.00 $",
-    "foto": "31.jpg",
-    "Ingredientes": ["Milk" ,"butter", 
-    "eggs" , "flour",
-     "Cooked ham",
-   "mozzarella cheese"]
-  },
-
-  {
-    "nombre": "Regular Burger with chips",
-    "precio": "8.00$",
-    "foto": "IMG-20241114-WA0225.jpg",
-    "Ingredientes": ["Ground chuck and beef patties","Tomatoes and chips"]
+    "foto": "20.jpg",
+    "Ingredientes": [
+      "Crepes made with flour milk butter eggs",
+      "Nutella"
+    ]
   },
   {
-    "nombre": "Mozzarella Cheese Burger with chips",
-    "precio": "10.00$",
-    "foto": "IMG-20241114-WA0224.jpg",
-    "Ingredientes": ["Ground chuck and beef patties","Tomatoes","Mozzarella cheese","Chips"]
-  },
-  {
-    "nombre": "Ham Mozzarella Cheese Burger with chips",
-    "precio": "12.00$",
-    "foto": "IMG-20241114-WA0223.jpg",
-    "Ingredientes": ["Ground chuck and beef patties","Tomatoes","Mozzarella cheese","Ham and chips"]
-  },
-  {
-    "nombre": "Full Burger with ham mozzarella cheese and egg with chips",
-    "precio": "14.00$",
-    "foto": "IMG-20241114-WA0222.jpg",
-    "Ingredientes": ["Ground chuck and beef patties " ,"Tomatoes","Mozzarella cheese ","Ham","Egg and chips"]
-  },
-  {
-    "nombre": "Super Full Burger with ham mozzarella cheese egg and bacon with chips",
-    "precio": "16.00$",
-    "foto": "IMG-20241114-WA0220.jpg",
-    "Ingredientes": ["Ground chuck and beef patties","Mozzarella cheese","Ham","Egg","Bacon and chips"]
-  },
-  {
-    "nombre": "Shrimp Skewers with Peppers and Chips",
-    "precio": "19.00 $",
-    "foto": "30.jpg",
-    "Ingredientes": ["Shrimps" ,"peppers", "garlic",
-    "olive oil" ,"chips"]
-  },
-  {
-    "nombre": "Tiramisu",
-    "precio": "9.00$",
-    "foto": "16.jpg",
-    "Ingredientes": ["Ladyfingers","coffe","mascarpone","egg","cocoa powder and dark chocolate"]
-  },
-  {
-    "nombre": "Cannolo Siciliano",
-    "precio": "6.00$",
-    "foto": "15.jpg",
-    "Ingredientes": ["00","fluor","sugar","lard marsala","eggs","white wine","vinegar","fine salt","orange peel","cinnamon powder","sheep's","milk"]
+    "nombre": "Canroll",
+    "precio": "6.00 $",
+    "foto": "21.jpg",
+    "Ingredientes": [
+      "Canroll biscuit",
+      "ricotta cream from sichy"
+    ]
   }
-
-
-
-
 ]
