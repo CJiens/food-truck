@@ -25,7 +25,8 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/assets"
+              "src/assets",
+              "src/google1f7e6373f7bdea9a.html"
             ],
             "styles": [
               "src/styles.css",
