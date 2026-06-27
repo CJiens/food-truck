@@ -24,18 +24,14 @@ export class HomeComponent implements OnInit{
     private metaService: Meta,
   ) {}
 
- ngOnInit(): void {
-    // 1. Título de la pestaña
-    this.titleService.setTitle('Litaly - Tu inicio'); // Cámbialo por tu título real
-
-    // 2. Descripción que aparecerá en Google
-    this.metaService.updateTag(
-      { name: 'description', content: 'Descripción atractiva de tu página de inicio aquí.' }
-    );
-
-    // 3. (MUY IMPORTANTE) Etiqueta Canonical para evitar contenido duplicado
-    this.metaService.updateTag(
-      { rel: 'canonical', href: 'https://litaly.vercel.app/home' }
-    );
+ngOnInit() {
+    // 1. Cambia el título de la pestaña del navegador
+    this.titleService.setTitle('Menu | Little Italy - Authentic Italian Food Truck in US');
+    
+    // 2. Modifica la descripción que sale en los resultados de Google
+    this.metaService.updateTag({ 
+      name: 'description', 
+      content: 'Discover the best Italian Food Truck menu in the United States. Authentic Italian pizzas, drinks, and fresh ingredients near you.' 
+    });
   }
 }
