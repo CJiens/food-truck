@@ -35,7 +35,7 @@ export class HomeComponent implements OnInit{
 
     // 3. (MUY IMPORTANTE) Etiqueta Canonical para evitar contenido duplicado
     this.metaService.updateTag(
-      { rel: 'canonical', href: 'https://litaly.vercel.app' }
+      { rel: 'canonical', href: 'https://litaly.vercel.app/home' }
     );
   }
 }
