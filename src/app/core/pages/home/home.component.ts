@@ -25,13 +25,18 @@ export class HomeComponent implements OnInit{
   ) {}
 
 ngOnInit() {
-    // 1. Cambia el título de la pestaña del navegador
-    this.titleService.setTitle('Menu | Little Italy - Authentic Italian Food Truck in US');
+    // Título enfocado en la búsqueda local de EE.UU.
+    this.titleService.setTitle('Our Menu | Little Italy - Authentic Italian Food Truck in US');
     
-    // 2. Modifica la descripción que sale en los resultados de Google
+    // Meta descripción optimizada con palabras clave que busca el público americano
     this.metaService.updateTag({ 
       name: 'description', 
-      content: 'Discover the best Italian Food Truck menu in the United States. Authentic Italian pizzas, drinks, and fresh ingredients near you.' 
+      content: 'Taste real homemade Neapolitan pizzas and Italian pasta in the United States. Check out our food truck schedule and catering services.' 
     });
+
+    // Etiquetas Open Graph (Para que se vea increíble cuando lo compartas por WhatsApp o Facebook)
+    this.metaService.updateTag({ property: 'og:title', content: 'Little Italy Food Truck - Authentic Italian Menu' });
+    this.metaService.updateTag({ property: 'og:description', content: 'The finest handcrafted Italian cuisine on wheels in the US.' });
+    this.metaService.updateTag({ property: 'og:image', content: 'assets/dark-slate.jpg' });
   }
 }
