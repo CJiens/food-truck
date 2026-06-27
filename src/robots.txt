@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://litaly.vercel.app/sitemap.xml

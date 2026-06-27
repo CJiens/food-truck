@@ -26,7 +26,9 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/assets",
-              "src/google1f7e6373f7bdea9a.html"
+              "src/google1f7e6373f7bdea9a.html",
+              { "glob": "robots.txt", "input": "src", "output": "/" },
+              { "glob": "sitemap.xml", "input": "src", "output": "/" }
             ],
             "styles": [
               "src/styles.css",
